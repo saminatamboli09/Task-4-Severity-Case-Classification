@@ -1,16 +1,18 @@
-# Task-4 Severity & Case Classification
+# Task-4: Severity & Case Classification - Pharmacovigilance
+Name: Samina Gabbar Tamboli | ID: VWX-SEP26TOOCT26-847
 
-**Name:** Samina Gabbar Tamboli
-**ID No:** VWX-SEP26TOOCT26-847
-**Domain:** PHARMACOVIGILANCE
-**Task:** Severity & Case Classification
+### Objective:
+To classify ADRs based on seriousness as per ICH E2A guidelines.
 
-### Classification
+### Case Analysis:
 
-| Case | Drug | ADR | Seriousness | Expectedness | Criteria |
-|---|---|---|---|---|---|
-| 1 | Amoxicillin | Skin rash, itching | Non-Serious | Expected | Mild, no hospitalization, listed in label |
-| 2 | Ibuprofen | GI bleeding requiring hospitalization | Serious | Expected | Hospitalization required, known NSAID risk |
-| 3 | Metformin | Lactic acidosis | Serious | Expected | Life-threatening, documented in SmPC |
+| Case No. | Suspected Drug | Adverse Reaction | Seriousness | Justification |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | Amoxicillin | Skin rash with itching | Non-Serious | Mild skin reaction, no hospitalization, not life-threatening |
+| 2 | Ibuprofen | Gastrointestinal bleeding requiring hospitalization | Serious | Meets serious criteria - Hospitalization |
+| 3 | Metformin | Lactic acidosis | Serious | Life-threatening condition, meets serious criteria |
 
-Conclusion: Case 2 & 3 are Serious -> Need expedited reporting. Case 1 is Non-Serious.
+### Conclusion:
+As per regulatory guidelines, Cases 2 and 3 are classified as Serious and require expedited reporting to regulatory authority. Case 1 is Non-Serious and can be reported as routine.
+
+Reference: ICH E2A Guideline for Clinical Safety Data Management.
